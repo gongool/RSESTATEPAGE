@@ -1,0 +1,47 @@
+.f-container {
+    justify-content: space-between;
+}
+
+.f-left {
+    gap: .1rem;
+}
+
+.f-right{
+    gap: .1rem;
+}
+
+.f-menu {
+    margin-top: .1rem;
+    gap: 1.1rem;
+    font-weight: 500;
+    font-size: .9rem;
+    
+}
+
+.f-left .secondaryTextSpan {
+    margin-top: -2.5rem;
+}
+.f-left img {
+    margin-top: -2.5rem;
+}
+
+@media (max-width: 768px) {
+    .f-container {
+        justify-content: center;
+    }
+
+    .f-container>div {
+        align-items: center!important ;
+    }
+
+    .f-left .secondaryTextSpan {
+        margin-top: -2rem;
+    }
+
+    .f-right .primary-text {
+        font-size: 1.4rem;
+    }
+
+
+
+}
